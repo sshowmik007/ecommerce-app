@@ -33,7 +33,7 @@ const [activeSlide, setActiveSlide] = useState(0);
       };
 
   return (
-    <div className='parentDiv h-96 mt-10 pt-24 bg-white flex items-center justify-between'>
+    <div className=' h-96 my-20 bg-white flex items-center justify-between'>
         {/* Left arrow div */}
         <div className={arrowStyle} onClick={prevSlide}>
             <ArrowLeftIcon style={{fontSize: '50px'}}/>
