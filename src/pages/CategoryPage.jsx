@@ -8,8 +8,7 @@ import { Footer } from './../components/Footer';
 const CategoryPage = () => {
   return (
     <div>
-        <Announce/>
-        <Navbar/>
+
         {/* Categories */}
         <div className='flex flex-col'>
           <h1 className=' bg-slate-200 p-5 text-center text-3xl font-bold shadow-lg '>Men's Cloth</h1>
@@ -45,7 +44,7 @@ const CategoryPage = () => {
 
         <Products />
         <Newsletter />
-        <Footer />
+        
     </div>
   )
 }

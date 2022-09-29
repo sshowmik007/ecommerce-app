@@ -8,8 +8,7 @@ import { Newsletter } from '../components/Newsletter'
 const ProductPage = () => {
   return (
     <div>
-        <Announce />
-        <Navbar />
+       
         <div className='flex justify-center'>
             <div className='flex flex-1 items-center justify-center my-10'>
                 <img src="https://cdn.shopify.com/s/files/1/0240/7285/products/WithinYourselfLongSleeveT-ShirtinBlack06_360x.jpg?v=1642719812" alt="Product-image" className='w-50 h-70 rounded-lg shadow-lg hover:scale-105 ease-in duration-200'/>
@@ -47,8 +46,6 @@ const ProductPage = () => {
 
             </div>
         </div>
-        <Newsletter />
-        <Footer />
     </div>
   )
 }
