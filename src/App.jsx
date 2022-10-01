@@ -8,7 +8,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Navbar from "./components/Navbar"
 import { Footer } from './components/Footer';
 import Announce from "./components/Announce"
-
+import Error from "./pages/Error"
 
 function App() {
   return (
@@ -23,6 +23,8 @@ function App() {
         <Route path ="/productpage" element={<ProductPage />} />
         <Route path ="/cart" element={<Cart />} />
         <Route path ="/login" element={<Login/>} />
+        <Route path ="*" element={<Error/>} />
+        
       </Routes>
 
       <Footer />
