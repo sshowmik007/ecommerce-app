@@ -9,9 +9,9 @@ const Cart = () => {
         
        <div className='p-5'>
             <div className='flex justify-center text-5xl '>Cart</div>
-            <div className='flex items-center justify-between mt-4 '>
+            <div className='flex items-center justify-between mt-4 mobile:flex-col'>
                 <button className='btn bg-white text-purple-400 border-purple-400 hover:bg-white'>Continue Shopping</button>
-                <div className='flex underline text-lg hover:cursor-pointer'>                   
+                <div className='flex underline text-lg hover:cursor-pointer mobile:flex-col mobile:my-2'>                   
                     <p>Items in Your Cart: 3</p>
                     <p className='ml-5'>Wishlist Items: 0 </p>
                 </div>
@@ -19,17 +19,17 @@ const Cart = () => {
             </div>
     {/* Central DIV */}
 
-                <div className='flex mx-5 mt-10'>
-                    <div className='flex flex-col flex-1'>
+                <div className='flex mx-5 mt-10 mobile:flex-col'>
+                    <div className='flex flex-col flex-1 '>
                         {/* List of Products */}
-                        <div className='flex w-full h-auto items-center '>
-                            <div className='product flex self-start pl-5'>
+                        <div className='flex w-full h-auto items-center mobile:flex-col'>
+                            <div className='product flex self-start pl-5 mobile:pl-0 mobile:mb-10'>
                                 {/* Product DESC */}
                                 <img src="https://cdn.shopify.com/s/files/1/0240/7285/products/WithinYourselfLongSleeveT-ShirtinElectricBlue04_360x.jpg?v=1642719824" alt="Product_img" 
-                                className='w-32 h-70 mr-10 rounded-lg shadow-lg hover:scale-105 ease-in duration-200' />
+                                className='w-32 h-70 mr-10 rounded-lg shadow-lg hover:scale-105 ease-in duration-200 mobile:mr-3' />
                             
                                 {/* description */}
-                                <div className='description flex flex-col ml-5 h-auto justify-between'>
+                                <div className='description flex flex-col ml-5 h-auto justify-between mobile:ml-0'>
                                     <p>
                                         <b className='mr-2'>ID:</b>123456
                                     </p>
@@ -61,11 +61,11 @@ const Cart = () => {
                         <hr className='mt-7 mb-7'/>
                         {/* Second PRoduct */}
 
-                        <div className='flex w-full h-auto items-center '>
-                            <div className='product flex self-start pl-5'>
+                        <div className='flex w-full h-auto items-center mobile:flex-col'>
+                            <div className='product flex self-start pl-5 mobile:pl-1 mobile:mb-10'>
                                 {/* Product DESC */}
                                 <img src="https://cdn.shopify.com/s/files/1/0240/7285/products/KushJonesLST-ShirtinBlack09_360x.jpg?v=1642719733" 
-                                className='w-32 h-70 mr-10 rounded-lg shadow-lg hover:scale-105 ease-in duration-200' />
+                                className='w-32 h-70 mr-10 rounded-lg shadow-lg hover:scale-105 ease-in duration-200 mobile:mr-0' />
                             
                                 {/* description */}
                                 <div className='description flex flex-col ml-5 h-auto justify-between'>

@@ -10,10 +10,10 @@ const CategoryPage = () => {
     <div>
 
         {/* Categories */}
-        <div className='flex flex-col'>
+        <div className='flex flex-col '>
           <h1 className=' bg-slate-200 p-5 text-center text-3xl font-bold shadow-lg '>Men's Cloth</h1>
-          <div className='flex items-center justify-between mt-3'>
-            <div className='flex pl-10'>
+          <div className='flex items-center justify-between mt-3 '>
+            <div className='flex pl-2 mobile:flex-col'>
               <p className='text-xl font-black'>Filter By </p>
               <select name="" id="" className='ml-3 border-2 border-gray-200'>
                 <option selected disabled value="">Size</option>

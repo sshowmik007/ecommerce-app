@@ -11,10 +11,10 @@ export const Footer = () => {
     const socialStyle = 'm-3 rounded-full cursor-pointer p-2 text-white';
 
   return (
-    <div className='flex justify-center items-center p-10 bg-zinc-100 text-base-content'>
+    <div className='flex justify-center items-center p-10 bg-zinc-100 text-base-content mobile:flex-col mobile:items-start'>
         <div className='flex-1 items-start flex flex-col '>
             {/* Store Infos */}
-            <h1 className='text-[25px]'>SADMAN SHOWMIK</h1>
+            <h1 className='text-[25px] '>SADMAN SHOWMIK</h1>
             <p> 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel velit autem numquam voluptas perferendis omnis. Quis laudantium perferendis voluptatibus maxime obcaecati dolores. Quisquam laudantium magnam facere quo blanditiis minus mollitia.
             </p>

@@ -42,7 +42,7 @@ const Navbar = () => {
       </div>
   
       {/* Mobile menu */}
-      <div className={nav ? 'md:hidden fixed left-0 top-0 w-[50%] border-r border-r-gray-900 bg-purple-600 ease-in-out duration-500 z-10' : 'fixed left-[-100%] ease-in-out duration-500 ' } >
+      <div className={nav ? 'md:hidden fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-900 bg-purple-600 ease-in-out duration-500 z-10' : 'fixed left-[-100%] ease-in-out duration-500 ' } >
       {/* <h1 className='w-full text-3xl font-bold text-white m-4 '>Sadman Shop</h1> */}
       <img src={logo} alt="Logo" className='bg-white object-cover rounded-lg  h-16 hover:scale-125 ease-in-out duration-300' />
         
