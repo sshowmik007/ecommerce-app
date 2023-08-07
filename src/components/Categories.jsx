@@ -4,11 +4,11 @@ import Category from './Category';
 
 
 const Categories = () => {
-    return <div className='flex justify-between items-center p-5 mobile:flex-col'>
-      {ApiCategories.map((category, index)=>(
-          <Category item={category} key={index}/>
-      ))}
-    </div>;
-  };
+  return <div className='flex justify-between items-center p-5 mobile:flex-col'>
+    {ApiCategories.map((category) => (
+      <Category item={category} key={category.id} />
+    ))}
+  </div>;
+};
   
   export default Categories;
